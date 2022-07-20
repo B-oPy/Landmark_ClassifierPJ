@@ -1,5 +1,41 @@
+.h2, h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20;
+}
+
+.h3, h3 {
+    font-size: 1.3rem;
+    width: 320px;
+    text-align: center;
+}
+
+.result{
+    display: block;
+    text-align: center;
+    width: 320px;
+    font-size: 1.3rem;
+
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+}
+
+/* .btn btn-primary btn-lg {
+    text-align: center;
+    display: block;
+
+} */
+
 .img-preview {
-    width: 256px;
+    display: block;
+    text-align: center;
     height: 256px;
     position: relative;
     border: 5px solid #F8F8F8;
@@ -21,14 +57,17 @@ input[type="file"] {
 }
 
 .upload-label{
-    display: inline-block;
+    display: block;
     padding: 12px 30px;
     background: #39D2B4;
     color: #fff;
     font-size: 1em;
     transition: all .4s;
     cursor: pointer;
+    text-align: center;
 }
+
+
 
 .upload-label:hover{
     background: #34495E;
